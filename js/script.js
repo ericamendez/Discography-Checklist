@@ -1,6 +1,8 @@
 let submit = document.querySelector('#submit')
 let infoSection = document.querySelector('#artistInfo')
 
+// https://apilist.fun/api/audio-db
+
 async function getArtist(e){
     e.preventDefault()
     infoSection.innerHTML = ''
